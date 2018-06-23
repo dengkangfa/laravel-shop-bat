@@ -33,7 +33,7 @@
                                         </a>
                                     </div>
                                     <div class="price"><b>￥</b>{{ $product->price }}</div>
-                                    <a href="{{ route('product.show', ['$product' => $product->id]) }}">
+                                    <a href="{{ route('products.show', ['$product' => $product->id]) }}">
                                         {{ $product->title }}
                                     </a>
                                 </div>
